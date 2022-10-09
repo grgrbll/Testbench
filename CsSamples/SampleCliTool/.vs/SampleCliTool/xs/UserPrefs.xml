@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{6B64BE01-BA54-4CAF-8385-A0DB46C589D6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CLI/Plugins/ToBase64.cs">
+    <Files>
+      <File FileName="CLI/Program.cs" Line="102" Column="5" />
+      <File FileName="Tests/UnitTest1.cs" Line="40" Column="1" />
+      <File FileName="CLI/Plugins/ToBase64.cs" Line="30" Column="64" />
+      <File FileName="Tests/ConsoleRunner.cs" Line="27" Column="1" />
+      <File FileName="Tests/Usings.cs" Line="1" Column="1" />
+      <File FileName="CLI/Plugins/ToAscii.cs" Line="9" Column="41" />
+      <File FileName="CLI/Plugins/Plugin.cs" Line="111" Column="1" />
+      <File FileName="CLI/Plugins/Example.cs" Line="17" Column="10" />
+      <File FileName="GbUtil/ScopeGuard.cs" Line="24" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SampleCliTool" expanded="True">
+            <Node name="CLI_Tool" expanded="True">
+              <Node name="Plugins" expanded="True" />
+            </Node>
+            <Node name="GbUtil" expanded="True" />
+            <Node name="Tests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="SampleCliTool" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/apple/Dropbox/portfolio/bugtracker/CsSamples/CLI_Tool/SampleCliTool/CLI/Plugins/Plugin.cs" relfile="CLI/Plugins/Plugin.cs" line="109" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.CLI__Tool PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
