@@ -1,5 +1,7 @@
 import os
 
+def checkEnvironmentConfig():
+    pass
 
 def clean():
     os.system("rm -r ./build/*")
@@ -7,9 +9,11 @@ def clean():
 
 def prebuild():
     pwd = os.getcwd()
+    if not os.path.exists("./build"):
+        os.mkdir("./build")
     os.chdir("./build")
     os.system(
-        "cmake -S ../ -B . -DCMAKE_TOOLCHAIN_FILE=/Users/apple/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake")
+        "cmake -S ../ -B .")# -DCMAKE_TOOLCHAIN_FILE=/Users/apple/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake")
     os.chdir(pwd)
 
 

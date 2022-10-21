@@ -1,0 +1,17 @@
+CsSamples/SampleCliTool/obj
+CsSamples/SampleCliTool/CLI/bin
+CsSamples/SampleCliTool/CLI/obj
+CsSamples/SampleCliTool/Tests/bin
+CsSamples/SampleCliTool/Tests/obj
+CsSamples/SampleCliTool/GbUtil/obj
+CsSamples/SampleCliTool/GbUtil/bin
+CppSamples/build/*
+CsSamples/CSharpBits/Tests/bin
+CsSamples/CSharpBits/Tests/obj
+*/.vs
+aws
+vcpkg
+deployments/
+__pycache__/
+logs/
+.env

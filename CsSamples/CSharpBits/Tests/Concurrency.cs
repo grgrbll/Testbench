@@ -58,11 +58,11 @@ namespace Tests
 			{
 				Assert.True(state != null);
 
-                string input = (string)state?.GetType().GetProperty("Input")?.GetValue(state, null);
+                string? input = (string?)state?.GetType().GetProperty("Input")?.GetValue(state, null);
                 Assert.Equal("12345", input);
 
-                var promise = (TaskCompletionSource<string>)state?.GetType().GetProperty("Promise")?.GetValue(state, null);
-				promise.SetResult(new String(input.Reverse().ToArray()));
+                var promise = (TaskCompletionSource<string>?)state?.GetType().GetProperty("Promise")?.GetValue(state, null);
+				promise?.SetResult(new String(input?.Reverse().ToArray()));
 
 				return;
 			}
