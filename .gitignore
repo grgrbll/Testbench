@@ -8,8 +8,7 @@ CsSamples/SampleCliTool/GbUtil/bin
 CppSamples/build/*
 CsSamples/CSharpBits/Tests/bin
 CsSamples/CSharpBits/Tests/obj
-*/.vs
-aws
+/aws
 vcpkg
 deployments/
 __pycache__/
