@@ -1,0 +1,21 @@
+[package]
+name = "LanguageFeatures"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+aes = "0.8.2"
+block-ciphers = "0.0.0"
+chrono = "0.4.22"
+cipher = "0.4.3"
+futures = "0.3.25"
+hex-literal = "0.3.4"
+itertools = "0.10.5"
+local-ip-address = "0.4.9"
+rand = "0.8.5"
+reqwest = { version = "0.11.13", features = ["json"] }
+serde_json = "1.0.87"
+sha2 = "0.10.6"
+tokio = { version = "1.21.2", features = ["full"] }
